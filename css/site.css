@@ -1,0 +1,101 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:#222;
+    color: whitesmoke;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:#222; /*#222*/    
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+a{
+    color: #999;
+    background-color:  #222;
+    font-size: larger;
+    font-weight: 500;
+}
+
+a:hover{
+    color: white;
+    font-size: larger;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+h4, h2 {
+    background-color:  #222;
+    color: #BE3888;
+    padding: 4px;
+}
+
+.contactpage{
+	background-color: #222;
+    font-size: larger;
+    margin: 20px;
+}
+
+.style2 {
+     color: #BE3888;
+	font-size: larger;
+}
+
+.style3 {
+     color: #BE3888;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.portrait {
+    width: 100%;
+}
+
+.landscape img {
+    height: 100%;
+}
+
+ul {
+   list-style:none;
+}
+
+.well{
+    margin: 25px;
+    color: #222;
+}
+
+.btn-more {
+  color: #ffffff;
+  background-color: #999;
+  border-color: #999;
+}
+
+.btn-more:hover,
+.btn-more:focus,
+.btn-more:active,
+.btn-more.active,
+.open .dropdown-toggle.btn-more {
+  color: #ffffff;
+  background-color: #999;
+  border-color: #999;
+}
+
+td,th {
+   font-size: smaller; 
+}
